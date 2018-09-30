@@ -57,8 +57,8 @@ when the headers are at the bottom-right of the PCB,
 4. SO
 5. CS
 6. GND
-7. 5.0V VCC
-8. 3.3V VCC
+7. 3.3V VCC
+8. 5.0V VCC
 ```
 
 At the same orientation, the CAN pins are, from top-to-bottom,
