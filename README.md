@@ -43,4 +43,27 @@ public IP `curl icanhazip.com` by entering the full URL at
 
 ```
 https://mxtoolbox.com/DNSLookup.aspx
-````
+```
+
+## Custom CAN-BUS Config
+
+The Waterloop custom PCB has the pin layout, from left-to-right
+when the headers are at the bottom-right of the PCB,
+
+```
+1. INT
+2. SCK
+3. SI
+4. SO
+5. CS
+6. GND
+7. 5.0V VCC
+8. 3.3V VCC
+```
+
+At the same orientation, the CAN pins are, from top-to-bottom,
+
+```
+1. CANL
+2. CANH
+```
